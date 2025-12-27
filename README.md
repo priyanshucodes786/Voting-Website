@@ -66,6 +66,9 @@ The project uses **browser `localStorage`** to store vote counts.
 ```js
 countone  // Vote count for candidate one
 counttwo  // Vote count for candidate two
+localStorage.getItem('countone')
+localStorage.getItem('counttwo')
+```
 
 © Copyright
 
